@@ -1,0 +1,359 @@
+I"«/<!-- _pages/publications.md -->
+<div class="publications">
+  <h2 class="year">2022</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="PhysRevE.105.044314" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Degree correlations in graphs with clique clustering</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Peter Mann,&nbsp;V. Anne Smith,&nbsp;John B. O. Mitchell, and
+            <span class="more-authors" title="click to view 1 more author" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '1 more author' ? 'Simon Dobson' : '1 more author';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">1 more author</span></div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Phys. Rev. E</em> Apr 2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="PhysRevE.106.014304" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">N-strain epidemic model using bond percolation</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Peter Mann,&nbsp;V. Anne Smith,&nbsp;John B. O. Mitchell, and
+            <span class="more-authors" title="click to view 1 more author" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '1 more author' ? 'Simon Dobson' : '1 more author';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">1 more author</span></div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Phys. Rev. E</em> Jul 2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2021</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="PhysRevE.104.024303" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Symbiotic and antagonistic disease dynamics on networks using bond percolation</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Peter Mann,&nbsp;V. Anne Smith,&nbsp;John B. O. Mitchell, and
+            <span class="more-authors" title="click to view 1 more author" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '1 more author' ? 'Simon Dobson' : '1 more author';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">1 more author</span></div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Phys. Rev. E</em> Aug 2021
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="PhysRevE.103.042307" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Cooperative coinfection dynamics on clustered networks</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Peter Mann,&nbsp;V. Anne Smith,&nbsp;John B. O. Mitchell, and
+            <span class="more-authors" title="click to view 1 more author" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '1 more author' ? 'Simon Dobson' : '1 more author';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">1 more author</span></div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Phys. Rev. E</em> Apr 2021
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="PhysRevE.103.062308" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Two-pathogen model with competition on clustered networks</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Peter Mann,&nbsp;V. Anne Smith,&nbsp;John B. O. Mitchell, and
+            <span class="more-authors" title="click to view 1 more author" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '1 more author' ? 'Simon Dobson' : '1 more author';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">1 more author</span></div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Phys. Rev. E</em> Jun 2021
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="PhysRevE.103.012313" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Percolation in random graphs with higher-order clustering</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Peter Mann,&nbsp;V. Anne Smith,&nbsp;John B. O. Mitchell, and
+            <span class="more-authors" title="click to view 1 more author" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '1 more author' ? 'Simon Dobson' : '1 more author';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">1 more author</span></div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Phys. Rev. E</em> Jan 2021
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="PhysRevE.104.024304" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Exact formula for bond percolation on cliques</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Peter Mann,&nbsp;V. Anne Smith,&nbsp;John B. O. Mitchell, and
+            <span class="more-authors" title="click to view 2 more authors" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '2 more authors' ? 'Christopher Jefferson, Simon Dobson' : '2 more authors';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">2 more authors</span></div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Phys. Rev. E</em> Aug 2021
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="PhysRevE.103.012309" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Random graphs with arbitrary clustering and their applications</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Peter Mann,&nbsp;V. Anne Smith,&nbsp;John B. O. Mitchell, and
+            <span class="more-authors" title="click to view 1 more author" onclick="
+                  var element = $(this);
+                  element.attr('title', '');
+                  var more_authors_text = element.text() == '1 more author' ? 'Simon Dobson' : '1 more author';
+                  var cursorPosition = 0;
+                  var textAdder = setInterval(function(){
+                    element.text(more_authors_text.substring(0, cursorPosition + 1));
+                    if (++cursorPosition == more_authors_text.length){
+                      clearInterval(textAdder);
+                    }
+                }, '10');
+                ">1 more author</span></div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Phys. Rev. E</em> Jan 2021
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2018</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="mann_2018" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Lagrangian and Hamiltonian Dynamics</div>
+          <!-- Author -->
+          <div class="author">
+          
+
+          Peter Mann</div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            Jan 2018
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+
+          
+        </div>
+      </div>
+</li></ol>
+
+
+</div>
+:ET
