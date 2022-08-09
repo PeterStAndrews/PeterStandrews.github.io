@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
@@ -333,8 +332,3 @@ mdb:
 medium_zoom:
   version: "1.0.6"
   integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
-=======
-theme: jekyll-theme-minimal
-title: Peter Mann
-description: Post doctoral researcher in network science
->>>>>>> 575aac0baaa246fe5c35c27e3fb55399c661b3b2
