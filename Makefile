@@ -1,3 +1,3 @@
 .PHONY: publish
-install:
+publish:
 	./bin/deploy
