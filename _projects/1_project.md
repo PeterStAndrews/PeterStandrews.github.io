@@ -7,7 +7,8 @@ importance: 1
 category: Network Science
 ---
 
-```python
+{% highlight python linenos %}
+
 import ast
 import gcmpy
 import numpy as np
@@ -18,7 +19,9 @@ from joblib import Parallel, delayed
 
 import matplotlib 
 from matplotlib import pyplot as plt
-```
+
+{% endhighlight %}
+
 
 [Peter Mann, 2022, University of St Andrews]
 
@@ -47,7 +50,8 @@ To start out, lets perform some bond percolation simulations over this network u
 ```python
 # set the number of repeats and perform the experiments
 repeats = 10
-Ss = [[gcmpy.bond_percolate(G, phi) for phi in np.linspace(0,1,20)] for r in tqdm(range(repeats))]
+Ss = [[gcmpy.bond_percolate(G, phi) for phi in np.linspace(0,1,20)] 
+                                    for r in tqdm(range(repeats))]
 
 # take the average of the repeats 
 largest_component_size = [sum(t)/len(t) for t in zip(*Ss)]
@@ -95,19 +99,19 @@ where  $\mathcal Q_{n,k}$ is the number of connected graphs with $n$ vertices an
 $$
     \mathcal Q_{n, k} =
     \begin{cases}
-0 \qquad &k< n-1,\quad \text{or}\quad k> n(n-1)/2 \\
-n^{n-2} \qquad &k = n-1, 
-\quad\\
-Q(n,k)\qquad &\text{otherwise}.
-\end{cases}
-$$
-where 
-$$
-    Q(n,k)=\binom{\frac 12n(n-1)}{k}
-- \sum\limits_{m=0}^{n-2} {n-1\choose m} 
-\sum\limits_{p=0}^k{\frac 12(n-1-m)(n-2-m) \choose p} \mathcal Q_{m+1, k-p}
+        0 \qquad &k< n-1,\quad \text{or}\quad k> n(n-1)/2 \\
+        n^{n-2} \qquad &k = n-1, 
+        \quad\\
+        Q(n,k)\qquad &\text{otherwise}.
+    \end{cases}
 $$
 
+
+where 
+
+$$
+    Q(n,k)=\binom{\frac 12n(n-1)}{k}- \sum\limits_{m=0}^{n-2} {n-1\choose m} \sum\limits_{p=0}^k{\frac 12(n-1-m)(n-2-m) \choose p} \mathcal Q_{m+1, k-p}.
+$$
 
 We now have to code this expression. Note, `gcmpy` contains a handy implementation of this recursion. 
 
@@ -308,7 +312,7 @@ plt.legend(fontsize=14)
 </div>
 
 
-The 2-clique cover does not capture the experimental results very well, especially in the region above the phase transition $0.1<\phi<0.9$. Allowing larger cliques into the cover yields a better model of the empirical network, but it still isn't 100% capturing the connectivity of the empirical network. We can examine what cliques we included into the cover.
+The 2-clique cover does not capture the experimental results very well. Allowing larger cliques into the cover yields a better model of the empirical network, but it still isn't 100% capturing the connectivity of the empirical network. We will investigate the role that clique covers play in future posts! 
 
 
 ```python
@@ -371,8 +375,3 @@ plt.ylabel('count',fontsize=14)
 [5]  F. Harary and E. M. Palmer, Graphical enumeration. Academic Press, 1973.
 
 [6] https://github.com/giubuig/DisjointCliqueCover.jl
-
-
-```python
-
-```
