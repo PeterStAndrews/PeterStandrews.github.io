@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Message passing on clustered networks
-description: Message passing on clustered networks with clique covers
-img: assets/img/my_images/output_17_1.png
+title: Message Passing on Clustered Graphs
+description: Message passing on clustered networks with edge-disjoint clique covers using `gcmpy`
+img: assets/img/my_images/output_14_1.png
 importance: 1
 category: Network Science
 ---
@@ -86,12 +86,13 @@ $$
 The expression to calculate the clique equation is found to be [2]
 
 
-\begin{equation}
+$$
         H_{i\leftarrow \tau}(z) = \sum_{\kappa=0}^{|\tau|-1}\sum_{m=0}^{\frac 12 \kappa(\kappa-1)}\mathcal Q_{\kappa+1,\frac 12(\kappa+1)\kappa-m}\phi^{\frac 12(\kappa+1)\kappa-m}(1-\phi)^{\omega(r)+m}\sum_{a_{\kappa}\in A_{\kappa}}\prod_{\tau_j\in a_\kappa}\left(z\prod_{\nu\in \nu_{\tau_j}\backslash\tau} H_{\tau_j\leftarrow\nu}(z)\right),
-\end{equation}
+$$
+
 where  $\mathcal Q_{n,k}$ is the number of connected graphs with $n$ vertices and $k$ edges. This can be evaluated numerically by a fast recursive algorithm due to Harary and Palmer [5]. 
 
-\begin{equation}
+$$
     \mathcal Q_{n, k} =
     \begin{cases}
 0 \qquad &k< n-1,\quad \text{or}\quad k> n(n-1)/2 \\
@@ -99,13 +100,13 @@ n^{n-2} \qquad &k = n-1,
 \quad\\
 Q(n,k)\qquad &\text{otherwise}.
 \end{cases}
-\end{equation}
+$$
 where 
-\begin{align}
-    Q(n,k)=&\binom{\frac 12n(n-1)}{k}
+$$
+    Q(n,k)=\binom{\frac 12n(n-1)}{k}
 - \sum\limits_{m=0}^{n-2} {n-1\choose m} 
 \sum\limits_{p=0}^k{\frac 12(n-1-m)(n-2-m) \choose p} \mathcal Q_{m+1, k-p}
-\end{align}
+$$
 
 
 We now have to code this expression. Note, `gcmpy` contains a handy implementation of this recursion. 
@@ -296,9 +297,15 @@ ax.tick_params(axis='both', which='major', labelsize=13)
 plt.legend(fontsize=14)
 ```
 
-    
-![png](assets/img/my_images/output_14_1.png)
-    
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/my_images/output_14_1.png" title="SimulationandTheory" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The 2-clique cover and the MPCC cover results of the message passing model for the coauthorship network. 
+</div>
 
 
 The 2-clique cover does not capture the experimental results very well, especially in the region above the phase transition $0.1<\phi<0.9$. Allowing larger cliques into the cover yields a better model of the empirical network, but it still isn't 100% capturing the connectivity of the empirical network. We can examine what cliques we included into the cover.
@@ -337,8 +344,15 @@ plt.xlabel('clique size',fontsize=14)
 plt.ylabel('count',fontsize=14)
 ```
     
-![png](assets/img/my_images/output_17_1.png)
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/my_images/output_17_1.png" title="SimulationandTheory" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A distribution of the cliques that are included in the MPCC cover, note the presence of an 18 clique!
+</div>
 
 # References
 
