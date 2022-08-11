@@ -63,9 +63,14 @@ ax.tick_params(axis='both', which='major', labelsize=13)
 plt.legend(fontsize=14)
 ```
 
-    
-![png](assets/img/my_images/output_4_2.png)
-    
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/my_images/output_4_2.png" title="simulation" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This simulation results of bond percolation on the coauthorship network.
+</div>
 
 
 # Message passing model
